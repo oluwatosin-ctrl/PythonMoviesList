@@ -61,8 +61,8 @@ def show_movie(movies_list):
               print(f"Movie : {movie['name']}")
               print(f"Director : {movie['director']}")
               print(f"Release Date : {movie['year']}")
-        except UnboundLocalError:
-            print("Error")
+        except:
+            print("Error, No Movies")
           
 
         
